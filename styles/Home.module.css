@@ -1,0 +1,92 @@
+.container {
+  background-color: #1b262c;
+  height: 100vh;
+}
+
+.grid {
+  height: 10vh;
+  background-color: #0f4c75;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bal {
+  margin-left: 3rem;
+}
+.sch {
+  margin-right: 4rem;
+}
+
+.head {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  height: 17vh;
+  background-color: #3282b8;
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.input {
+  justify-content: flex-end;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.stonk {
+  display: flex;
+}
+
+.stonkhead {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+
+.stonkwrap {
+  display: flex;
+  flex-wrap: inherit;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.stonkcard {
+  flex: 1 1 auto;
+  padding-left: 1rem;
+  width: 20vw;
+  height: 17vh;
+  background-color: #3282b8;
+  margin: 2rem;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.stonktitle {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.stonkwrap2 {
+  display: flex;
+  flex-wrap: inherit;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
